@@ -179,6 +179,10 @@ textarea::placeholder {
 }
 
 footer{
+    position:  fixed;
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
     margin-top: 20px;
     padding: 10px;
     border-top: 2px solid var(--color-seis) ;
@@ -188,6 +192,7 @@ footer{
     font-size: 20px;
     font-family: var(--fuente-Inter);
     font-weight: 700;
+   
 }
 
 .linkedin:hover{

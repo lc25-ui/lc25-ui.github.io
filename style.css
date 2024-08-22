@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+:root{
+    --color-primario:#C7FFED;
+    --color-secundario:#D8FFDB;
+    --color-terciario:#45C4B0;
+    --color-cuarto:#13678A;
+    --color-cinco:#323050;
+    --color-seis: #21445B;
+    --color-sieto: #73D4EB;
+   
+
+    --fuente-montserrat: 'Montserrat', sans serif;
+    --fuente-krona: 'Krona One', sans serif;
+    --fuente-Inter: 'Inter' , sans serif;
+}
+
+
+body {
+    background-color:var(--color-secundario);
+    box-sizing: border-box;
+    height: 100%;
+  
+    
+}
+
+header {
+    width: 100px;
+   
+}
+.Imagen_logo {
+    width: 60%;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.contenedor{
+    padding: 1% 15%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;   
+}
+
+.encriptador_izquierdo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    width: 60rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center; 
+}
+
+textarea::placeholder {
+    font-family: var(--fuente-Inter);
+    color:var(--color-cinco);
+    text-align: center;
+    font-size: 2rem;    
+}
+
+.cuadro_texto{
+    width: 100%;
+    height:100%;
+    border-radius: 4rem;  
+}
+
+#wordInput{   
+    width: 100%;
+    height: 100%;
+    resize: none;
+    box-sizing: border-box;
+    background-color: var(--color-secundario);
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2rem; 
+}
+
+.aviso {
+    font-family: var(--fuente-Inter);
+    color: var(--color-cinco);
+}
+.botones {
+    display: flex;
+    gap: 3rem;
+ }
+ 
+.button {
+    padding: 5% 0.75rem;
+    margin: 0% 0.1rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;  
+  }
+
+  .encriptar{
+    background-color: var(--color-terciario);
+  }
+
+  .desencriptar{
+    background-color: var(--color-sieto);
+  }
+  .button:hover {
+    background-color:var(--color-seis);
+  }
+  
+.resultado_derecho {
+    background-color: var(--color-primario);
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+    width: 50%;
+    min-width: 15rem;
+    height: 25rem;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    padding: 3%;     
+}
+
+.Imagen_muñeco {
+    width: 65%;
+    height: 50%;  
+}
+
+#mensajeOutput{
+    width: 100%;
+    min-height: 100%;
+   display: flex; 
+   flex-direction: column;
+   box-sizing: border-box;   
+}  
+
+.mensaje-encriptado {
+    word-wrap: break-word; 
+    word-break: break-all; 
+    text-align: center; 
+    margin-top:0.1rem;   
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;   
+}
+
+
+#mensaje_placeholder {
+    margin-top:15%;
+    font-size: 15px;
+    font-family: var(--fuente-krona);  
+}
+
+#instruccion_placeholder {
+   margin-top: 8%;
+   font-size: 15px;
+   font-family: var(--fuente-montserrat);   
+}
+
+#copyButton {
+    display: flex;
+    padding: 3% 0.75rem;
+    margin: 0% 0.1rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--color-sieto);  
+}
+
+footer{
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid var(--color-seis) ;
+    color: var(--color-seis);
+    text-align: center;
+    height: 5px;
+    font-size: 20px;
+    font-family: var(--fuente-Inter);
+    font-weight: 700;
+}
+
+.linkedin:hover{
+    color:var(--color-seis);
+    opacity: 0.5;
+
+}
+
+.github:hover{
+    color: var(--color-seis);
+    opacity: 0.5;
+}
+
+@media (max-width:1250px) {
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;   
+}
+
+.encriptador_izquierdo{
+    display: flex;
+    width: 100%;
+    
+}
+.Imagen_muñeco{
+   display: none;
+}
+
+.resultado_derecho{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 0px 0px 0px 0px;
+}
+
+#mensaje_placeholder {
+    margin-top:1%;
+    font-size: 15px;   
+}
+
+#instruccion_placeholder {
+   margin-top: 5%;
+   font-size: 15px;   
+}
+}
+
+
+@media (max-width:720px) {
+body{
+    background-color: var(--color-secundario);
+}
+
+.contenedor{
+    padding: 0%;
+    margin-top: 15%;
+    min-width: 15rem;  
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.resultado_derecho{
+    width: 100%;
+    padding: 1rem;
+    margin-top: auto;  
+}
+
+#mensaje_placeholder {
+    font-size: 15px; 
+}
+
+#instruccion_placeholder {
+    font-size: 15px; 
+
+}
+}

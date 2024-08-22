@@ -178,6 +178,9 @@ textarea::placeholder {
     background-color: var(--color-sieto);  
 }
 
+#copyButton:hover {
+    background-color: var(--color-seis);
+}
 footer{
    
     bottom: 3rem;

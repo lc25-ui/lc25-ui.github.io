@@ -72,7 +72,7 @@ Convierte el texto en un formato ilegible reemplazando las vocales por las sigui
   <img src="https://github.com/user-attachments/assets/b1afc6ac-d9b1-42d1-93b4-af592f78ce05" alt="Mensaje de texto a mayúscula" width="300px">
 </p>
 
-- **Límite de caracteres:** Además, el encriptador de texto encripta un máximo de 300 caracteres. Si se colocan más caracteres, se mostrará el siguiente mensaje:
+- **Límite de caracteres:** Además, el encriptador de texto permite un máximo de 300 caracteres. Si se colocan más caracteres, se mostrará el siguiente mensaje:
   
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d721df98-6d7f-439c-bbd4-4ab79850ee97" alt="Mensaje de texto a mayúscula" width="300px">
@@ -87,8 +87,10 @@ Convierte el texto en un formato ilegible reemplazando las vocales por las sigui
 - **Sitios Web:** Utilizados para la búsqueda de documentación técnica y explicación de códigos.
 
 ## Contribuyentes
-- **Alura Latam:** Gracias a sus cursos, el autor desarrolló su lógica en programación para poder llevar a cabo este proyecto.
+- **Alura Latam:** Gracias a sus cursos, el autor desarrolló su lógica de programación para poder llevar a cabo este proyecto.
   
 ## Conclusión 
+<div align="justify">
 Los encriptadores de texto son herramientas que contribuyen a la seguridad de los datos de los usuarios, este proyecto encripta y desencripta textos que contengan letras minúsculas y sin acentos. Su uso asegura que el contenido sea ilegible para quienes no tienen el conocimiento para desencriptarlo, protegiendo así la información sensible de manera efectiva. 
+</div>
 
